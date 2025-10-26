@@ -1,0 +1,27 @@
+# Compiled executables
+assignment1_openmp
+assignment2_openmp
+assignment3_openmp
+assignment4_openmp
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Compiler output
+*.a
+*.so
+*.dylib
+
+# Editor files
+*~
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
