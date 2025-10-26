@@ -1,3 +1,4 @@
+//2. To write a parallel program to find sum of an array	
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
