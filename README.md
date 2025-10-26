@@ -2,14 +2,6 @@
 
 A collection of parallel programming assignments demonstrating various OpenMP concepts including task parallelism, data race prevention, numerical integration, and matrix operations.
 
-## 📋 Table of Contents
-
-- [Requirements](#requirements)
-- [Compilation Instructions](#compilation-instructions)
-- [Assignments Overview](#assignments-overview)
-- [Performance Analysis](#performance-analysis)
-- [Learning Outcomes](#learning-outcomes)
-
 ## 🛠️ Requirements
 
 - **Compiler:** GCC with OpenMP support (version 4.2 or higher)
@@ -83,5 +75,5 @@ These assignments cover essential OpenMP concepts:
 ## 📄 License
 This project is created for educational purposes as part of CDAC ACC HPC coursework.
 
-This project is created for educational purposes as part of CDAC coursework.
+
 
