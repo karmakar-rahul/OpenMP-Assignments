@@ -1,3 +1,5 @@
+//4.  to write a program for Matrix and vector multiplication.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
@@ -111,7 +113,8 @@ int main() {
         
         printf("Threads: %d, Time: %.4f seconds, Speedup: %.2fx\n", 
                threads, end_time - start_time, 
-               0.1 / (end_time - start_time));  // Approximate speedup
+               0.1 / (end_time - start_time));  
+        // Approximate speedup
     }
     
     // Free memory
