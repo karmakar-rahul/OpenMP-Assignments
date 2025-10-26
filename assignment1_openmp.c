@@ -1,3 +1,5 @@
+//1. To write an OpenMP program that creates 10 tasks. Each task should print the thread number of the calling thread.
+
 #include <stdio.h>
 #include <omp.h>
 
