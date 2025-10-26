@@ -1,7 +1,10 @@
+//3. To write an Openmp program to compute PI
+
 #include <stdio.h>
 #include <omp.h>
 
-#define NUM_STEPS 100000000  // 100 million steps
+#define NUM_STEPS 100000000  
+// 100 million steps
 
 int main() {
     int num_steps = NUM_STEPS;
