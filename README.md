@@ -2,19 +2,19 @@
 
 A collection of parallel programming assignments demonstrating various OpenMP concepts including task parallelism, data race prevention, numerical integration, and matrix operations.
 
-## 🛠️ Requirements
+## Requirements
 
 - **Compiler:** GCC with OpenMP support (version 4.2 or higher)
 - **Compile Flag:** `-fopenmp`
 - **OS:** Linux/Ubuntu or Windows with WSL
 - **Optional:** `-lm` flag for math library (Assignment 3)
 
-## 📦 Compilation Instructions
+## Compilation Instructions
 
 All programs require the `-fopenmp` flag for OpenMP support.
 
 
-## 📊 Assignments Overview
+## Assignments Overview
 
 ### Assignment 1: Task Parallelism
 - Creates 10 tasks distributed across 4 and 8 threads
@@ -38,7 +38,7 @@ All programs require the `-fopenmp` flag for OpenMP support.
 - Benchmarks speedup with varying thread counts (1, 2, 4, 8)
 - Demonstrates row-wise parallelization strategy
 
-## 📈 Performance Analysis
+## Performance Analysis
 
 Each assignment includes timing comparisons demonstrating:
 - **Speedup:** Performance gain from parallelization
@@ -49,7 +49,7 @@ Expected performance improvements:
 - Assignment 3: 3-4x speedup with 4 threads using reduction
 - Assignment 4: 2-3x speedup with 4 threads for matrix operations
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 These assignments cover essential OpenMP concepts:
 1. **Task Parallelism:** Dynamic task creation and management
@@ -58,7 +58,7 @@ These assignments cover essential OpenMP concepts:
 4. **Performance Tuning:** Thread count optimization and load balancing
 5. **Race Conditions:** Identifying and preventing parallel programming pitfalls
 
-## 📝 Notes
+## Notes
 
 - Assignment 3 requires the math library (`-lm` flag)
 - Thread distribution may vary based on system architecture and load
@@ -72,8 +72,9 @@ These assignments cover essential OpenMP concepts:
 - Cache coherency and false sharing
 - Amdahl's Law and parallel efficiency
 
-## 📄 License
+## License
 This project is created for educational purposes as part of CDAC ACC HPC coursework.
 
+### ⭐ If you found this helpful, please star this repository!
 
 
